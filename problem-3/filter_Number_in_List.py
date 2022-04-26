@@ -1,3 +1,6 @@
+#return only even number and divisible by 5
+
+
 class Solution:
     def plusOne(self, digits : list) -> list:
         digits = [y for y in digits if y % 2 == 0 if y % 5 == 0]
